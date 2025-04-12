@@ -1,0 +1,11 @@
+.header {
+    padding: 16px;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.title {
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+}
