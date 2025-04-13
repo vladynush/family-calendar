@@ -1,11 +1,25 @@
 .header {
-    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+
     background-color: var(--color-bg);
     color: var(--color-primary);
-    text-align: center;
+    border-bottom: 2px solid var(--color-border);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .title {
-    font-size: var(--font-size-lg);
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }

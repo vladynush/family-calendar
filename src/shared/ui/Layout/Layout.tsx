@@ -8,10 +8,10 @@ type Props = {
     title?: string,
 }
 
-const Layout: FC<Props> = ({ children, title = 'Ты забыл заголовок' }) => {
+const Layout: FC<Props> = ({children, title = 'Ты забыл заголовок'}) => {
     return (
         <div className={styles.layout}>
-            <Header title={title} />
+            <Header title={title}></Header>
             <main className={styles.main}>{children}</main>
         </div>
     );
